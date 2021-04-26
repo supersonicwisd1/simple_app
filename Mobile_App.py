@@ -22,7 +22,7 @@ class childApp(GridLayout):
         self.add_widget(self.s_gender)
 
 class parentApp(App):
-    def build(selfself):
+    def build(self):
         return childApp()
 
 if __name__ == "__main__":
